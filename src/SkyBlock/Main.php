@@ -208,9 +208,9 @@ class Main extends Base implements Listener{
 			return "Error: Player not found";
 		}else{
 			
-			$randX = rand(1, 500);
-			$randZ = rand(1, 500);
-			$Y = 100;
+			$randX = rand(1, 800);
+			$randZ = rand(1, 800);
+			$Y = 75;
 			
 			$levelName = $this->getServer()->getPlayer($name)->getLevel();
 			
